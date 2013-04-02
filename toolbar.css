@@ -1,0 +1,42 @@
+﻿.button_nav{
+	border: 1px solid #C0C0C0;
+	background-color: #ecf4ff! important;
+	opacity: 0.5;
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	width: 40px;
+	height: 32px;
+	cursor: pointer;
+	vertical-align: bottom;
+}
+.button_nav:hover{
+	border: 1px solid #C0C0C0;
+	background-color: #ecf4ff! important;
+	opacity: 1.0;
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	width: 40px;
+	height: 32px;
+	cursor: pointer;
+}
+
+.button_header{
+	border: 1px solid #C0C0C0;
+	background-color: #ecf4ff! important;
+	opacity: 0.5;
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	cursor: pointer;
+}
+.button_header:hover{
+	border: 1px solid #C0C0C0;
+	background-color: #ecf4ff! important;
+	opacity: 1.0;
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	cursor: pointer;
+}
