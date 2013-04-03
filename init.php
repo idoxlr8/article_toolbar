@@ -17,7 +17,7 @@ class article_toolbar extends Plugin {
 		$host->add_hook($host::HOOK_TOOLBAR_BUTTON, $this);
 	}
 	///Experimental get users name
-	function CDM_EXPANDED($link) {
+/*	function CDM_EXPANDED($link) {
 
 
 
@@ -27,13 +27,9 @@ class article_toolbar extends Plugin {
 			$result = db_query($link, "SELECT CDM_EXPANDED FROM ttrss_user_prefs WHERE owner_uid = $user_id");	
 			$value = db_fetch_result($result, 0, "CDM_EXPANDED");
 			return $value;
-	}		
+*/	}		
 
 ///
-	function get_js() {
-		return file_get_contents(dirname(__FILE__) . "/toolbar.js");
-	}
-
 	function HOOK_TOOLBAR_BUTTON() {
 		require_once dirname(__FILE__) . "/toolbar_body.php";
 	}
