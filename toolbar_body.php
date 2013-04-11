@@ -5,7 +5,7 @@
 ?>
 
 			<button class="button_nav" title="Toggle Expanded View" onclick="toggle_cdm_expanded()">
-			<img src="plugins/article_toolbar/images/list.png" alt="Mark as read"></button>
+			<img src="plugins/article_toolbar/images/list.png" alt="Toggle Expanded View"></button>
 
 			<button class="button_nav" title="Mark feed as read" onclick="catchupCurrentFeed()">
 			<img src="plugins/article_toolbar/images/read.png" alt="Mark as read"></button>
