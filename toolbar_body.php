@@ -4,6 +4,9 @@
 	print_user_stylesheet($link)
 ?>
 
+			<button  class="button_nav" title="Subscribe To Feed" onclick="quickMenuGo('qmcAddFeed')">
+			<img src="plugins/article_toolbar/images/feed.png" alt="Subscribe To Feed"></button>
+			
 			<button class="button_nav" title="Toggle Expanded View" onclick="toggle_cdm_expanded()">
 			<img src="plugins/article_toolbar/images/list.png" alt="Toggle Expanded View"></button>
 

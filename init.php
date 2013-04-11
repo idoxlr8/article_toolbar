@@ -5,7 +5,7 @@ class article_toolbar extends Plugin {
 	private $host;
 
 	function about() {
-		return array(0.3,
+		return array(1.0,
 			"Toolbar for easy access to feed functions",
 			"idoxlr8", false);
 	}
