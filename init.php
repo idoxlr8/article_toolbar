@@ -22,7 +22,9 @@ class article_toolbar extends Plugin {
 	function HOOK_TOOLBAR_BUTTON() {
 		require_once dirname(__FILE__) . "/toolbar_body.php";
 	}
-
+  function api_version() {
+    return 2;
+  } 
 
 
 }
